@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# pytest & coverage
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Black
+.black/
+
+# Pylint
+.pylint.d/
+
+# Cache
+__pypackages__/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Jupyter Notebook outputs
+*.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swn
