@@ -66,7 +66,7 @@ You perform scheduling based on the sub-module information given in "1. Sub-Modu
 ## 3.1 Scheduling Requirements & Constraints
 - The explanation inside the inequality symbol "<>" is an explanation of what should be printed in that section. When printing the actual scheduling results, do not print the inequality symbol and print the content that complies with the explanation inside the inequality symbol.
 - IMPORTANT: The values ​​of the input parameters that appear in the scheduling results are directly entered into the submodule. Therefore, the input parameter values ​​should contain specific content that will actually be used, and do not enter descriptions or abstract descriptions of the input parameter values.
-- IMPORTANT: Do not abbreviate or omit the input parameter values!!! Enter the entire contents as is.
+- IMPORTANT: Do not abbreviate or omit the input parameter values!!! Enter the entire value as is.
 - IMPORTNAT: Do not output plaintext block indicator (```plaintext ```) in the final output.
 - Do not create sub-tasks that cannot be performed by the sub-modules assigned to you. All sub-tasks must be assigned to sub-modules, so you must divide them into sub-tasks that can be performed only by the sub-modules assigned to you.
 - Do not use the input parameters, outputs, etc. given as examples. The examples are just examples. You should perform scheduling only with the sub-module information given in "# 1. Sub-Module Information".
@@ -74,7 +74,6 @@ You perform scheduling based on the sub-module information given in "1. Sub-Modu
 - Keep in mind that you may use the same submodule multiple times when configuring sub-tasks.
 
 Now, output the scheduling results based on the given information.
-Scheduling Result:
 """)
 
     submodule_info = PromptTemplate.from_template("""- Sub-Module Name: {submodule_name}
